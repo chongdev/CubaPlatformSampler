@@ -30,7 +30,7 @@
                 <textField id="topicField" property="topic"/>
                 <dateField id="startDateField" property="startDate"/>
                 <lookupPickerField id="speakerField" optionsContainer="speakersDc" property="speaker"/>
-                <textArea id="discriptionField" property="description"/>
+                <textField id="descriptionField" property="description"/>
             </column>
         </form>
         <hbox id="editActions" spacing="true">

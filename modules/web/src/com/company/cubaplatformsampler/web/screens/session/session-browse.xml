@@ -19,21 +19,20 @@
     </data>
     <dialogMode height="600"
                 width="800"/>
-    <layout expand="sessionsTab"
+    <layout expand="sessionsTap"
             spacing="true">
         <filter id="filter"
                 applyTo="sessionsTable"
                 dataLoader="sessionsDl">
             <properties include=".*"/>
         </filter>
-        <tabSheet id="sessionsTab">
-            <tab id="calendarTab" caption="Sessions Calendar" margin="true,false,false,false" spacing="true" expand="sessionsCalendar">
-                <calendar id="sessionsCalendar"
-                          dataContainer="sessionsDc" captionProperty="topic" descriptionProperty="description" startDateProperty="startDate" endDateProperty="endDate"
-                    firstVisibleHourOfDay="8" lastVisibleHourOfDay="18" navigationButtonsVisible="true"
-                />
+        <tabSheet id="sessionsTap">
+            <tab id="CalendarTab" caption="Calendar Tab" expand="sessionsCalendar">
+                <calendar id="sessionsCalendar" dataContainer="sessionsDc" endDateProperty="endDate"
+                          descriptionProperty="description" startDateProperty="startDate" captionProperty="topic"
+                          firstVisibleHourOfDay="8" lastVisibleHourOfDay="18" navigationButtonsVisible="true "/>
             </tab>
-            <tab id="tableTab" caption="Sessions Table" margin="true,false,false,false" spacing="true">
+            <tab id="TableTab" caption="Table Tab">
                 <groupTable id="sessionsTable"
                                     width="100%"
                                     dataContainer="sessionsDc">

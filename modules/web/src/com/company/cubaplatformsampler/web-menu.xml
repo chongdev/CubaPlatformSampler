@@ -5,5 +5,11 @@
               caption="mainMsg://menu_config.cubaplatformsampler_Session.browse"/>
         <item screen="cubaplatformsampler_Speaker.browse"
               caption="mainMsg://menu_config.cubaplatformsampler_Speaker.browse"/>
+        <item screen="cubaplatformsampler_LoginScreen" caption="mainMsg://menu_config.cubaplatformsampler_LoginScreen"/>
+
+        <item screen="cubaplatformsampler_ProductScreen"
+              caption="mainMsg://menu_config.cubaplatformsampler_ProductScreen"/>
+        <item screen="cubaplatformsampler_JavaScriptComponent"
+              caption="mainMsg://menu_config.cubaplatformsampler_JavaScriptComponent"/>
     </menu>
 </menu-config>

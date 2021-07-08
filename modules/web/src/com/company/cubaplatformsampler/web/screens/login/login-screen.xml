@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        caption="msg://loginScreen.caption"
+        messagesPack="com.company.cubaplatformsampler.web.screens.login">
+    <layout>
+
+        <cssLayout>
+
+            <vbox>
+
+                <cssLayout>
+
+                    <textField id="textField" maxLength="20" caption="Enter Name" datatype="string"
+                           description="test desc"></textField>
+
+                    <button id="btnClear" enable="false" caption="Clear"></button>
+                </cssLayout>
+            </vbox>
+
+            <vbox>
+                <cssLayout>
+                    <button id="btnCancel" enable="true" caption="Cancel"/>
+                    <button id="btnSubmit" enable="false" caption="msg://btnSubmitTxt" description="Login"></button>
+                </cssLayout>
+            </vbox>
+
+        </cssLayout>
+    </layout>
+</window>

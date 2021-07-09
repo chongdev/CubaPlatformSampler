@@ -52,6 +52,8 @@ public class LoginScreen extends Screen {
 
         textField.setEnabled(false);
         btnSubmit.setEnabled(false);
+
+        notifications.create(Notifications.NotificationType.HUMANIZED).withCaption("Login Done").show();
     }
 
     @Subscribe("btnCancel")

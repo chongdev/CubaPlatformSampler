@@ -10,8 +10,13 @@
 
                 <cssLayout>
 
-                    <textField id="textField" maxLength="20" caption="Enter Name" datatype="string"
-                           description="test desc"></textField>
+                    <label id="textFieldLabel"></label>
+                    <textField id="textField" maxLength="20" caption="Enter Name"
+                               datatype="string" description="test desc"
+                               textChangeTimeout="200" textChangeEventMode="TIMEOUT" width="100%"></textField>
+
+                    <passwordField id="passwordField"
+                                   caption="Enter Password:"/>
 
                     <button id="btnClear" enable="false" caption="Clear"></button>
                 </cssLayout>

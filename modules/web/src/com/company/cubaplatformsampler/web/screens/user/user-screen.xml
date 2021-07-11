@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        caption="msg://userScreen.caption"
+        messagesPack="com.company.cubaplatformsampler.web.screens.user">
+    <layout>
+
+        <vbox>
+            <label value="User Screen"></label>
+
+            <cssLayout>
+                <textField id="inputUserId" caption="User id" textChangeEventMode="TIMEOUT" trim="false"></textField>
+                <button id="btnGetUser" caption="Get User"></button>
+            </cssLayout>
+
+            <cssLayout>
+
+                <vbox>
+                    <label id="userId" value="userId: null"></label>
+                </vbox>
+
+                <vbox>
+                    <label id="userName" value="userName: null"></label>
+                </vbox>
+            </cssLayout>
+
+        </vbox>
+
+    </layout>
+</window>

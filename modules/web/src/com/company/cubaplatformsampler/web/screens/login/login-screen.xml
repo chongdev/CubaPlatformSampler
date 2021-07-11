@@ -17,6 +17,8 @@
                     <passwordField id="passwordField"
                                    caption="Enter Password:"/>
 
+                    <numberField />
+
                     <button id="btnClear" enable="false" caption="Clear"></button>
                 </cssLayout>
             </vbox>

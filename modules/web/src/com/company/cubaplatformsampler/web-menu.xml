@@ -11,5 +11,7 @@
               caption="mainMsg://menu_config.cubaplatformsampler_ProductScreen"/>
         <item screen="cubaplatformsampler_JavaScriptComponent"
               caption="mainMsg://menu_config.cubaplatformsampler_JavaScriptComponent"/>
+        <item screen="cubaplatformsampler_UsersScreen" caption="mainMsg://menu_config.cubaplatformsampler_UsersScreen"/>
+        <item screen="cubaplatformsampler_UserScreen" caption="mainMsg://menu_config.cubaplatformsampler_UserScreen"/>
     </menu>
 </menu-config>

@@ -13,8 +13,13 @@
             <map>
                 <entry key="cubaplatformsampler_SessionService"
                        value="com.company.cubaplatformsampler.service.SessionService"/>
+<<<<<<< Updated upstream
                 <entry key="cubaplatformsampler_SpeakerService"
                        value="com.company.cubaplatformsampler.service.SpeakerService"/>
+=======
+                <entry key="cubaplatformsampler_UserService"
+                       value="com.company.cubaplatformsampler.service.UserService"/>
+>>>>>>> Stashed changes
             </map>
         </property>
     </bean>

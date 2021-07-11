@@ -4,5 +4,6 @@
 
         <class>com.company.cubaplatformsampler.entity.Speaker</class>
         <class>com.company.cubaplatformsampler.entity.Session</class>
+        <class>com.company.cubaplatformsampler.entity.User</class>
     </persistence-unit>
 </persistence>

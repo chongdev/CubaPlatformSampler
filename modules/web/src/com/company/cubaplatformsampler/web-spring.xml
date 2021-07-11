@@ -13,6 +13,8 @@
             <map>
                 <entry key="cubaplatformsampler_SessionService"
                        value="com.company.cubaplatformsampler.service.SessionService"/>
+                <entry key="cubaplatformsampler_SpeakerService"
+                       value="com.company.cubaplatformsampler.service.SpeakerService"/>
             </map>
         </property>
     </bean>

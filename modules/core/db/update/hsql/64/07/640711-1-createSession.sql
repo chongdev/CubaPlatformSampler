@@ -12,7 +12,7 @@ create table CUBAPLATFORMSAMPLER_SESSION (
     START_DATE timestamp not null,
     END_DATE timestamp not null,
     SPEAKER_ID varchar(36) not null,
-    DISCRIPTION varchar(2000),
+    DESCRIPTION varchar(2000) not null,
     --
     primary key (ID)
 );

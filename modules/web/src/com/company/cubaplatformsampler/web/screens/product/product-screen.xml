@@ -5,5 +5,18 @@
 
     <layout spacing="true">
 
+        <cssLayout>
+            <vbox>
+                <textField id="inputSearch" caption="Search: Product" description="Search Name"></textField>
+                <button id="btnSearch" caption="Search"></button>
+            </vbox>
+
+            <vbox>
+                <label id="showResult"></label>
+            </vbox>
+            <vbox>
+                <label id="showUser"></label>
+            </vbox>
+        </cssLayout>
     </layout>
 </window>

@@ -1,1 +1,0 @@
-alter table CUBAPLATFORMSAMPLER_SESSION drop column DISCRIPTION__U77359 cascade ;

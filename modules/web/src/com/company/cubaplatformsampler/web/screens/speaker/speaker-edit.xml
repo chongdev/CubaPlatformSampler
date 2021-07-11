@@ -4,14 +4,14 @@
         focusComponent="form"
         messagesPack="com.company.cubaplatformsampler.web.screens.speaker">
     <data>
-        <instance id="speakerDc"
-                  class="com.company.cubaplatformsampler.entity.Speaker">
+        <instance id="speakerDc" class="com.company.cubaplatformsampler.entity.Speaker">
             <view extends="_local"/>
             <loader/>
         </instance>
     </data>
     <dialogMode height="600"
                 width="800"/>
+
     <layout expand="editActions" spacing="true">
         <form id="form" dataContainer="speakerDc">
             <column width="350px">

@@ -32,6 +32,9 @@ cuba {
         version = '0.1'
         isSnapshot = true
     }
+    tomcat {
+        port = '8082'
+    }
 }
 
 dependencies {

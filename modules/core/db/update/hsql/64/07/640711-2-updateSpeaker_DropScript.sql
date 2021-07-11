@@ -1,0 +1,1 @@
+alter table CUBAPLATFORMSAMPLER_SPEAKER drop column ID_SPEAKER__U51045 cascade ;

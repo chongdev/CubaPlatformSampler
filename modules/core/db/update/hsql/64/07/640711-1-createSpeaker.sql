@@ -9,6 +9,7 @@ create table CUBAPLATFORMSAMPLER_SPEAKER (
     DELETED_BY varchar(50),
     --
     FIRST_NAME varchar(255) not null,
+    ID_SPEAKER varchar(36) not null,
     LAST_NAME varchar(255) not null,
     EMAIL varchar(255) not null,
     --

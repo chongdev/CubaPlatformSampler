@@ -18,7 +18,7 @@ public class SessionServiceBean implements SessionService {
 
         Date newEndDate = Session.calculateEndDate(newStarDate);
         int sessionSameTime = dataManage.load(Session.class)
-                .query("select s form cubaplatformsampler_Session s where " +
+                .query("select s from cubaplatformsampler_Session s where " +
                         "s.startDate < :newEndDate and s.endDate > :newStartDate " +
                         "and s.speaker = :speaker " +
                         "and s.id <> :sessionId"

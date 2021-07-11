@@ -33,13 +33,13 @@
                 <action id="remove" type="remove"/>
             </actions>
             <columns>
+                <column id="id"/>
                 <column id="firstName"/>
                 <column id="lastName"/>
                 <column id="email"/>
             </columns>
             <rowsCount/>
-            <buttonsPanel id="buttonsPanel"
-                          alwaysVisible="true">
+            <buttonsPanel id="buttonsPanel" alwaysVisible="true">
                 <button id="createBtn" action="speakersTable.create"/>
                 <button id="editBtn" action="speakersTable.edit"/>
                 <button id="removeBtn" action="speakersTable.remove"/>
